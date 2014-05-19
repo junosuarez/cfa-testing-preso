@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" 
+    content="text/html;charset=utf-8" />
+  <link href="mocha.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="mocha"></div>
+<script src="mocha.js"></script>
+<script src="chai.js"></script>
+<script>
+  mocha.setup('bdd')
+  chai.should()
+</script>
+<script src="app.js"></script>
+<script src="test.js"></script>
+<script>
+  mocha.run()
+</script>
+</body>
+</html>
