@@ -1,3 +1,5 @@
+chai.should()
+
 describe('app.button', function () {
 
   afterEach(function () {
